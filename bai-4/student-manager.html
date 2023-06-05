@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/bai-4/manager-ui.css">
+      <title>Giao dien quan ly sinh vien</title>
+</head>
+
+<body>
+      <div class="container">
+            <!-- create student Inputs -->
+            <h2>Student Management</h2>
+            <div class="student__Input">
+                  <label for="student_id">Student Id</label>
+                  <input type="text" id="student_id" required/>
+            </div>
+            <div class="student__Input">
+                  <label for="student_name">Student Name</label>
+                  <input type="text" id="student_name" required/>
+            </div>
+            <div class="student__Input">
+                  <label for="age">Age</label>
+                  <input type="number" id="age" required/>
+            </div>
+            <div class="student__Input">
+                  <label for="phone">Phone</label>
+                  <input type="tel" id="phone" required/>
+            </div>
+            <div class="student__Input">
+                  <label for="email">Email</label>
+                  <input type="text" id="email" required/>
+            </div>
+            <button type="button" id="btn_create">Create</button>
+            <p id="result_checkInput"></p>
+            <!-- create students list -->
+            <h3>List Student</h3>
+            <div id="student__list"></div>
+      </div>
+      <script src="/bai-4/manager-feature.js"></script>
+</body>
+
+</html>

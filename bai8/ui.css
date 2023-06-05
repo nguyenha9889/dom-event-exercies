@@ -1,0 +1,45 @@
+* {
+      box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font: 62.5% Arial, Helvetica, sans-serif;
+}
+table {
+	width: 235px;
+	height: 260px;
+	margin: 30px auto;
+	text-align: center;
+	border: 2px double #9a9a9a;
+	border-collapse: collapse;
+	background-color: azure;
+}
+thead td {
+	height: 4.5em;
+	border: 2px double #9a9a9a;
+	background-color: whitesmoke;
+}
+
+.number,
+.reset {
+	border: 1px solid blue;
+	border-radius: 2px;
+	background-color: white;
+}
+.number {
+	font-size: 1.6em;
+	padding: 12px 20px;
+      margin: 5px;
+}
+.reset {
+      font-size: 1.6em;
+      padding: 10px 15px;
+}
+button {
+      font-size: 1.5em;
+      border: 1px solid blue;
+	border-radius: 2px;
+      padding: 10px 28px;
+      margin: -10px 0;
+}
