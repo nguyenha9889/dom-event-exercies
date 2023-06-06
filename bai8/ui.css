@@ -1,5 +1,5 @@
 * {
-      box-sizing: border-box;
+	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 }
@@ -16,30 +16,37 @@ table {
 	background-color: azure;
 }
 thead td {
-	height: 4.5em;
+	height: 2.5em;
 	border: 2px double #9a9a9a;
 	background-color: whitesmoke;
+      padding-right: 10px;
+      font-size: 1.8em;
+      text-align: right;
 }
 
 .number,
-.reset {
+.operator,
+#reset {
 	border: 1px solid blue;
 	border-radius: 2px;
 	background-color: white;
 }
-.number {
+.number, .operator {
 	font-size: 1.6em;
 	padding: 12px 20px;
-      margin: 5px;
+	margin: 5px;
 }
-.reset {
-      font-size: 1.6em;
-      padding: 10px 15px;
+#reset {
+	font-size: 1.6em;
+	padding: 10px 15px;
 }
 button {
-      font-size: 1.5em;
-      border: 1px solid blue;
+	font-size: 1.5em;
+	border: 1px solid blue;
 	border-radius: 2px;
-      padding: 10px 28px;
-      margin: -10px 0;
+	padding: 10px 28px;
+	margin: -10px 0;
+}
+button:hover {
+      background-color: cadetblue;
 }
