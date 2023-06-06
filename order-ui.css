@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font: 62.5% "Times New Roman", Times, serif;
+}
+
+.container {
+	font-size: 1.7em;
+	width: 85%;
+	margin: 20px auto;
+	padding: 15px;
+	border: 1px solid #4d4d4d;
+	border-radius: 2px;
+}
+h2 {
+	font-size: 2.4em;
+	margin: 20px 0;
+}
+h3 {
+	font-weight: 400;
+}
+/* --------------Buyer Infomation ---------------- */
+form {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.formOrder,
+.formReceiver {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 15px;
+}
+.form__buyerInfo,
+.form__received--note {
+	display: grid;
+	grid-template-columns: 30% 60%;
+	margin: 10px 0;
+}
+.form__buyerInfo label {
+	padding-top: 5px;
+}
+.form__buyerInfo input , textarea, .button input {
+	font-size: 1em;
+	font-family: "Times New Roman", Times, serif;
+	border: 1px solid rgb(161, 161, 161);
+	border-radius: 2px;
+	padding: 6px 8px;
+}
+/* --------------Received Infomation ---------------- */
+.checkBoxReceived {
+	margin: 15px 0;
+}
+.form__received--note textarea {
+	height: 70px;
+}
+.button {
+      text-align: center;
+}
+.button input {
+      margin: 0 8px;
+      width: 100px;
+}

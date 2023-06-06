@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Order Online</title>
+      <link rel="stylesheet" href="/bai9/order-ui.css">
+</head>
+
+<body>
+      <div class="container">
+            <h2>Form đặt hàng online:</h2>
+
+            <!-- Buyer Infomation -->
+            <form action="#" method="get" enctype="text/plain">
+                  <div class="formOrder">
+                        <h3>Thông tin người mua</h3>
+                        <div class="form__buyerInfo">
+                              <label for="fname">Họ và tên</label>
+                              <input type="text" name="fullname" id="fname" required />
+                        </div>
+                        <div class="form__buyerInfo">
+                              <label for="email">Email</label>
+                              <input type="text" name="email" id="email">
+                        </div>
+                        <div class="form__buyerInfo">
+                              <label for="phone">Điện thoại</label>
+                              <input type="tel" name="phone" id="phone" required />
+                        </div>
+                        <div class="form__buyerInfo">
+                              <label for="address">Địa chỉ</label>
+                              <input type="text" name="address" id="address" required />
+                        </div>
+                        <div class="form__buyerInfo">
+                              <label for="dateOrder">Ngày đặt</label>
+                              <input type="date" name="dateOrder" id="dateOrder" required />
+                        </div>
+                        <div class="form__buyerInfo">
+                              <label for="payMethod">Phương thức thanh toán</label>
+                              <input type="text" name="payMethod" id="payMethod" required />
+                        </div>
+                        <div class="checkBoxMail">
+                              <input type="checkbox" name="cbMail" id="cbMail" />
+                              <label for="cbMail">Gửi mail cho tôi</label>
+                        </div>
+                  </div>
+
+                  <!-- Receiver Infomation -->
+                  <div class="formReceiver">
+                        <h3>Thông tin người nhận</h3>
+                        <div class="form__received">
+                              <div class="checkBoxReceived">
+                                    <input type="checkbox" name="cbReceived" id="cbReceived" />
+                                    <label for="cbReceived">Tôi là người nhận</label>
+                              </div>
+                              <div class="form__buyerInfo">
+                                    <label for="fname">Họ và tên</label>
+                                    <input type="text" name="fullname" id="fname" required />
+                              </div>
+                              <div class="form__buyerInfo">
+                                    <label for="email">Email</label>
+                                    <input type="text" name="email" id="email">
+                              </div>
+                              <div class="form__buyerInfo">
+                                    <label for="phone">Điện thoại</label>
+                                    <input type="tel" name="phone" id="phone" required />
+                              </div>
+                              <div class="form__buyerInfo">
+                                    <label for="address">Địa chỉ</label>
+                                    <input type="text" name="address" id="address" required />
+                              </div>
+                              <div class="form__received--note">
+                                    <label for="note">Ghi chú</label>
+                                    <textarea name="note" id="note"></textarea>
+                              </div>
+                        </div>
+                  </div>
+
+            </form>
+            <!-- Button Order & Reset -->
+            <div class="button">
+                  <input type="submit" value="Đặt hàng" />
+                  <input type="reset" value="Nhập lại" />
+            </div>
+      </div>
+</body>
+
+</html>
