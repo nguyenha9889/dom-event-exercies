@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="/bai8/ui.css">
       <title>Calculator</title>
+      <link rel="stylesheet" href="/bai-8/ui.css">
 </head>
-
 <body>
       <div class="container">
             <table>
@@ -19,32 +17,31 @@
                   </thead>
                   <tbody>
                         <tr>
-                              <td><span class="number">1</span></td>
-                              <td><span class="number">2</span></td>
-                              <td><span class="number">3</span></td>
-                              <td><span class="number">+</span></td>
+                              <td><button class="number">1</button></td>
+                              <td><button class="number">2</button></td>
+                              <td><button class="number">3</button></td>
+                              <td><button class="operator">+</button></td>
                         </tr>
                         <tr>
-                              <td><span class="number">4</span></td>
-                              <td><span class="number">5</span></td>
-                              <td><span class="number">6</span></td>
-                              <td><span class="number">-</span></td>
+                              <td><button class="number">4</button></td>
+                              <td><button class="number">5</button></td>
+                              <td><button class="number">6</button></td>
+                              <td><button class="operator">-</button></td>
                         </tr>
                         <tr>
-                              <td><span class="number">7</span></td>
-                              <td><span class="number">8</span></td>
-                              <td><span class="number">9</span></td>
-                              <td><span class="number">*</span></td>
+                              <td><button class="number">7</button></td>
+                              <td><button class="number">8</button></td>
+                              <td><button class="number">9</button></td>
+                              <td><button class="operator">*</button></td>
                         </tr>
                         <tr>
-                              <td><span class="reset">AC</span></td>
-                              <td colspan="2"><button type="button">=</button></td>
-                              <td><span class="number">/</span></td>
+                              <td><button id="reset">AC</button></td>
+                              <td colspan="2"><button id="calculate">=</button></td>
+                              <td><button class="operator">/</button></td>
                         </tr>
                   </tbody>
             </table>
       </div>
-      <script src="/bai8/feature-calculator.js"></script>
+      <script src="/bai-8/feature-calculator.js"></script>
 </body>
-
 </html>
